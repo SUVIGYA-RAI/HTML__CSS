@@ -1,0 +1,35 @@
+form div{
+    padding-bottom:15px;
+}
+
+form{
+    margin: 50px 100px;
+    padding: 50px 100px;
+}
+
+body{
+    color:beige;
+    font-size: 25px;
+    background-image: url(https://www.shutterstock.com/image-vector/festival-fireworks-frame-bright-crackers-600nw-1740411008.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+fieldset{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROEmaOxwJApMGzEgtTNHt16T1CL3-MclT7BQ&s);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+fieldset legend{
+    font-size: 40px;
+ 
+}
+
+form input:hover{
+    background-color: #C4D9FF;
+}
