@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Landing Page</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <div class="bg-[url('eventbg.jpg')] h-190 w-355 text-white bg-no-repeat bg-center bg-cover bg-fixed bg-scroll">
+        <div class="text-white flex justify-around items-center drop-shadow-[2px_2px_2px_black] py-5 h-20">
+            <div class="right flex  gap-20 opacity-50">
+                <a href="">Home</a>
+                <a href="#3">About</a>
+                <a href="#2">Event</a>
+                <a href="#1">Register</a>
+            </div>
+        </div>
+        <div class="h-screen flex flex-col justify-center items-center text-right">
+            <h1 class="text-5xl font-bold">Tech Innovate 2025</h1>
+            <p>Join us for an immersive experience in technology and innovation</p>
+            <a href="" class="">Register Now</a>
+        </div>
+    </div>
+
+    <div  class="bg-url['bg.jpg'] bg-center bg-fixed bg-scroll bg-no-repeat">
+        <div id="3" class="text-center py-12 px-6 bg-gray-100">
+            <h2 class="text-3xl font-semibold">About The Event</h2>
+            <p class="mt-4 max-w-3xl mx-auto text-gray-600">Tech Innovate 2025 brings together the brightest minds in technology to discuss AI, cybersecurity, blockchain, and the future of digital transformation</p>
+        </div> 
+        
+        
+        <div class=" py-12 bg-gray-200" id="2">
+            <h2 class="text-3xl font-semibold text-center">Event Schedule</h2>
+            <div class=" grid grid-cols-1 md:grid-cols-3 gap-6 p-6 max-w-5xl mx-auto">
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <h3 class="text-xl font-semibold">Opening Ceremony</h3>
+                    <p class="text-gray-600">9:00 AM - 10:00 AM</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <h3 class="text-xl font-semibold">Emerging AI TechSession</h3>
+                    <p class="text-gray-600">11:00 AM - 1:00 PM</p>
+                </div>
+                <div class ="bg-white p-6 rounded-lg shadow-md text-center">
+                    <h3 class="text-xl font-semibold">Blockchain & CryptoCurrency</h3>
+                    <p class="text-gray-600">2:00 PM - 4:00 PM</p>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="text-center py-12 px-6 bg-gray-100">
+            <h2 class="text-3xl font-semibold">Register Now</h2>
+            <form id="1" action="" class="mt-6 max-w-lg mx-auto">
+                <input type="text" placeholder="Enter your name" class="w-full p-3 border rounded mb-4">
+                <input type="email" placeholder="Enter your email" class="w-full p-3 border rounded mb-4">
+                <button class="px-6 py-3 bh-blue-600 text-xl text-gray-400 rounded hover:bg-blue-700">SUBMIT</button>
+            </form>
+        </div>
+    </div>
+        
+
+    <footer class="text-center py-6 bg-gray-900 text-white">
+        <p>&copy; 2025 TECH INNOVATE | All Rights Reserved </p>
+    </footer>
+
+</body>
+</html> 
+
