@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UMS Home Page</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <div class="bg-pink-100 flex h-screen">
+        <div class=" hover:bg-pink-200 flex size-full">
+            <img class="hover:hidden" src="https://files.lpu.in//umsweb//Events//umseventAssets//27273_2025_1_8_12_26.jpg" alt="LPU Maka Trophyy!!">
+        </div>
+        <div class="size-full">
+            <div class="flex justify-between item-center m-15 gap-8 h-20 w-100">
+                <img src="https://ums.lpu.in/lpuums/assets/login/img/logos/seal.svg" class="flex justify-between item-center mx-5" alt="Lpu Logo">
+                <img src="https://ums.lpu.in/lpuums/assets/login/img/logos/ums_logo1.svg"  class="flex justify-between item-center" alt="UMS">
+            </div>
+            <div class="w-full items-center justify-center px-20">
+
+                <div class="bg-white p-15 w-full">
+                    <form action="get" class="flex flex-col gap-6">
+                        <div class="w-full flex items-center gap-4">
+                            <b>LogIn</b>
+                            <select name="HeadOffice" id="" class="bg-pink-100 p-5 w-full ">
+                            <option value="">HeadOffice</option>
+                            <option value="">New Delhi</option>
+                            <option value=""></option>
+                        </select>
+                        </div> 
+                        <input type="text" placeholder="User ID" class="bg-pink-100 p-5">
+                        <input type="text" placeholder="Password" class="bg-pink-100 p-5">
+                        <p class="text-right ">Forgot your Password ?</p>
+                        <button class="bg-pink-400 p-4">Login</button>
+                    </form>
+                    
+                </div>
+                <p class="p-5 text-center"><i class="fa-solid fa-envelope"></i> Student Mail</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
